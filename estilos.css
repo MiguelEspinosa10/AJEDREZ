@@ -1,0 +1,134 @@
+body{
+    background-image: url("./img/fondo3.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.nombre-empresa{
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.contenedor{
+    background: rgba(10, 28, 16, 6);
+    position: absolute;
+    top: 85px;
+    width: 480px;
+    height: 480px;
+    left: 450px;
+    background: #155;
+    margin: 0 auto;
+    border: 3px solid #000;
+    border-radius: 4px;
+}
+
+.col-a{
+    width: 60px;
+    z-index: 100;
+    float: left;
+}
+
+.negro{
+    width: 60px;
+    height: 60px;
+    background: black;
+}
+
+.blanco{
+    width: 60px;
+    height: 60px;
+    background: white;
+}
+
+.ficha-black{
+    font-size: 50px;
+    color: red;
+}
+
+.ficha-white{
+    font-size: 50px;
+    color: blue;
+}
+
+
+
+
+
+
+header {
+    background-color: rebeccapurple;
+    position: fixed;
+    top: 0;
+    width: 99%;
+    transition: top 0.3s;
+    }
+    section {
+    background-color: rgb(88, 153, 51);
+    width: 100%;
+    height: 395px;
+    }
+    footer {
+    position: absolute;
+    background-color: black;
+    position: absolute;
+    bottom: 0px;
+    width: 1350px;
+    height: 70px;
+    color: black;
+    text-align: center;
+    }
+
+    .logo{
+        position: fixed;
+        margin: 1;
+        align-self: flex-start;
+        display: inline-flex;
+    }
+        
+    .img{
+        z-index: 8;
+        padding: 5px;
+        margin: 1;
+        box-shadow: inset;
+    }                            
+      
+    nav {
+        width:50%;
+        height:80%;
+        float:right;
+        background:#FFFF99;
+        }
+        .nav-enlace{
+        display: inline-block;
+        background: salmon;
+        color:#fff;
+        padding: 10px 30px;
+        text-decoration: none;
+        }
+
+        
+        .nav-enlace:hover{
+            background: rosybrown;
+            }
+            nav{
+            background: rebeccapurple;
+            padding: 10px;
+            display: flex;
+            justify-content: space-around;
+            margin: auto;
+            }
+            .nav-boton{
+            background: salmon;
+            color: #fff;
+            padding: 10px 0;
+            border: 2px solid #fff;
+            display: none;
+        }
+
+        .page{
+            width: 700px;
+            height: 420px;
+            background-color: #fff;
+            position: absolute;
+            margin-left: 350px;
+            margin-top: 90px;
+        }
